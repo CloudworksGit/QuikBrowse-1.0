@@ -59,7 +59,7 @@ class Config {
 		
 			$TEMPLATE_CONFIG = new Template();
 		
-			return $TEMPLATE_CONFIG::get_templatesetting($setting);	
+			return $TEMPLATE_CONFIG::get_templatesettings($setting);	
 			
 		}
 		
